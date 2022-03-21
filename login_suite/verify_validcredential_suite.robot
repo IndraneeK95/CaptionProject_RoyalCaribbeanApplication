@@ -11,13 +11,13 @@ Test Teardown   Close Browser
 Test Template   Verify valid login credential
 
 *** Test Cases ***
-TC1    chet123@gmail.com    chet123a    Chetna
+TC1    chet123@gmail.com    chet123a    Have a reservation?
 
 
 *** Keywords ***
 Verify valid login credential
    [Arguments]     ${email}    ${password}   ${text}
-   Enter Email     ${EMPTY}
+   Enter Email     ${email}
    Enter Password    ${password}
    Click Login
    Validate message      ${text}

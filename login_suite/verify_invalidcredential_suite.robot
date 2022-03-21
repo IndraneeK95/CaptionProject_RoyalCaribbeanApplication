@@ -17,8 +17,8 @@ TC1    chet123@gmail.com    werggd      The email or password is not correct.
 *** Keywords ***
 Verify invalid login credential
     [Arguments]     ${email}    ${password}   ${text}
-    Enter Email     ${EMPTY}
+    Enter Email     ${email}
     Enter Password    ${password}
     Click Login
-    Validate message    $message
+    Validate message    ${text}
 
