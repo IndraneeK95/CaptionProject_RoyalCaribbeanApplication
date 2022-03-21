@@ -1,6 +1,6 @@
 *** Settings ***
 
-Documentation       This file handles all operation related to login page
+Documentation       This file handles all operation related to registration page
 Resource        ../base/commonFunctionality.resource
 
 *** Variables ***
