@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation           This suite will handle all the test cases related
-...                     to valid credential test. Test case TC_OH_3
+...                     to incorrect registration details. Test template with excel(Page object model included)
 
 Resource        ../resource/base/commonFunctionality.resource
 Resource        ../resource/Pages/registrationPage.resource
